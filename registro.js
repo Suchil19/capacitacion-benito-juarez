@@ -70,17 +70,19 @@ googleButton.addEventListener('click', e => {
   const provider = new firebase.auth.GoogleAuthProvider();
   auth.signInWithPopup(provider)
   .then(result => {
-    console.log('google sign in');
-    const user = result.user;
-    sendUserInformation(user);
-
-    signupForm.reset();
-    $('#signinModal').modal('hide');
+    console.log('google sign in')
+    // aqui van los modales para cerrar 
+     //Clear the form
+     signupForm.reset();
+     //Close the modal
+     $('#signinModal').modal('hide')
+     window.location='./avisos/mantente-informado.html';
   })
   .catch(err => {
     console.log(err)
   })
 })
+
 
 
 //const facebookButton = document.querySelector('#facebookLogin')
