@@ -35,7 +35,7 @@ body {
     :root {
       --blanco: #ffffff;
       --background: #eeeeee;
-      --color-principal: #242d32;
+      --color-principal: #202c56;
       --color-secundario: #50899c;
       --color-secundario-2: #497c8d;
       --color-terciario: #e6e6e6;
@@ -1019,6 +1019,22 @@ section{
     margin-right: -2%;
     padding: 5%;
   }
+
+  .section .row .col-md-6 p{
+    color: var(--color-principal);
+    line-height: 1.6;
+    letter-spacing: .5px;
+    font-weight: bold;
+    justify-content: center;
+  }
+  .section .row .col-md-6 h3{
+    color: var(--color-principal);
+    font-size: 2rem;
+    margin: 1rem;
+  }
+
+
+
   /*
   .section h3{
     color: #09aca3;

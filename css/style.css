@@ -31,8 +31,8 @@ body {
   :root {
     --blanco: #ffffff;
     --background: #eeeeee;
-    --color-principal: #242d32;
-    --color-secundario: #50899c;
+    --color-principal: #202c56;
+    --color-secundario: #202c56;
     --color-secundario-2: #497c8d;
     --color-terciario: #e6e6e6;
     --font-body: 'Poppins', sans-serif;
@@ -2591,6 +2591,8 @@ section{
 
   .xbox .content p {
     display: none;
+    justify-content:baseline;
+    line-height: 1rem;
   }
 
   .xbox .content h2 {
