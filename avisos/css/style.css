@@ -9,6 +9,9 @@
   Body
 -------------------------------------------------------- */
 
+
+
+
 body {
   margin: 0;
   padding: 0;
@@ -35,7 +38,7 @@ body {
   :root {
     --blanco: #ffffff;
     --background: #eeeeee;
-    --color-principal: #242d32;
+    --color-principal: #202c56;
     --color-secundario: #50899c;
     --color-secundario-2: #497c8d;
     --color-terciario: #e6e6e6;
@@ -81,8 +84,8 @@ color: #fff;
 .home-text p{
 font-size: 1.2rem;
 line-height: 1.5rem;
-color: #fff;
-font-weight: 500;
+color: #ffffff;
+font-weight: 700;
 margin: 0;
 }
 
@@ -1018,19 +1021,22 @@ background-color:#ea4c89
   margin-right: -2%;
   padding: 5%;
 }
-/*
+
 .section h3{
   color: #09aca3;
    border-bottom: solid 3px #2726260d;
    font-size: 1.2rem;
    font-weight: 700;
 }
+
+/* Agregado para el p*/
 .section p{
   margin-top: 10%;
   color: #545b62;
   font-size: 1.2rem;
+  line-height: 25px;
 }
-*/
+
 .section img
 {
   width: 100%;

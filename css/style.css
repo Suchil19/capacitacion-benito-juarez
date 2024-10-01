@@ -178,8 +178,8 @@ body {
   header .header-logo img {
     display: block;
     max-height: 50px;
-    border-radius: 50px;
     /*vertical-align: middle;*/
+    border-radius: 50Px;
   }
   header .header-categories {
     display: block;
@@ -223,36 +223,6 @@ body {
     border-radius: 2px;
     background-color: rgba(255, 255, 255, 0.2);
   }
-  header .header-search #listOptions {
-    width: calc(100% - 2rem);
-    color: black;
-    font-size: 16px;
-    outline: none;
-    border: none;
-    border-radius: 2px;
-    background-color: white;
-    margin: 0 auto;
-  }
-  header .header-search .search-list-item {
-    height: 2rem;
-    padding: 0.3rem;
-  }
-header .header-search .search-list-item img {
-  height: 1.5rem;
-}
-header .header-search .search-list-item .flex {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-  header .header-search .search-list-item a {
-    color: #8e11f3;
-    outline: none;
-    text-decoration: none;
-  }
-  header .header-search .search-list-item a:hover {
-    text-decoration: underline;
-  }
   header .header-search .search ::-webkit-input-placeholder {
     color: rgba(255, 255, 255, 0.5);
   }
@@ -264,6 +234,36 @@ header .header-search .search-list-item .flex {
   }
   header .header-search .search :-ms-input-placeholder {
     color: rgba(255, 255, 255, 0.8);
+  }
+  header .header-search #listOptionsStudent {
+    width: calc(100% - 2rem);
+    color: black;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    background-color: white;
+    margin: 0 auto;
+  }
+  header .header-search .search-list-item {
+    height: auto;
+    padding: 0.5rem;
+  }
+    header .header-search .search-list-item img {
+        height: 1.5rem;
+    }
+    header .header-search .search-list-item .flex {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+  header .header-search .search-list-item a {
+    color: #8e11f3;
+    outline: none;
+    text-decoration: none;
+  }
+  header .header-search .search-list-item a:hover {
+    text-decoration: underline;
   }
   header .header-menu {
     float: right;
@@ -313,13 +313,14 @@ header .header-search .search-list-item .flex {
       background-color: rgba(0, 0, 0, 0.175);
     }
     header .header-logo {
-      float: center;
+      float: right;
       padding-left: 0px;
       padding-right: 0px;
     }
+    /*
     header .header-menu {
-      text-decoration: none;
-    }
+      display: none;
+    }*/
   }
   
   /* -----------------------------------------------------
@@ -483,6 +484,7 @@ header .header-search .search-list-item .flex {
     font-size: 11px;
     margin-bottom: 4px;
   }
+  
   
   /* -----------------------------------------------------
      Dropdown Menu
